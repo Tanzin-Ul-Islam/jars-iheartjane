@@ -1,0 +1,40 @@
+/* .card_width{
+    max-width: 640px;
+} */
+.card_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    height: 236px;
+}
+.wishlist_card_image{
+    width: 180px;
+    object-fit: cover;
+    height: 130px;
+}
+.top_section{
+    margin-top: 10rem;
+}
+.text_body{
+    height: 160px;
+}
+.myItemToBottom {
+    margin-top: 200px;
+    margin-bottom: 38px;
+}
+
+@media screen and (max-width: 767px) {
+    .top_section{
+        margin-top: 10rem;
+    } 
+    .myItemToBottom {
+        margin-top: 215px;
+        margin-bottom: 38px;
+    }
+    .wishlist_card_image{
+        width: 100%;
+        object-fit: cover;
+        height: 180px;
+        margin-bottom: 5px;
+    }
+}

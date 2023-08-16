@@ -1,0 +1,55 @@
+.career_card{
+    padding: 1rem;
+    background-color: var(--site-blue-100);
+    border: 1px solid var(--site-black);
+    border-radius: 5px;
+    color: var(--site-black);
+    transition: background, color 1s ease;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.career_card:hover{
+    padding: 1rem;
+    background: var(--site-black);
+    border: 1px solid var(--site-blue-100);
+    border-radius: 5px;
+    color: var(--site-blue-100);
+}
+.career_card_img_box{
+    padding: 10px;
+    background-color: var(--site-gray);
+    border-radius: 50%;
+}
+.career_more_btn{
+    color: var(--site-blue-100)!important;
+    border-color: var(--site-blue-100)!important;
+    background-color: var(--site-black)!important;
+}
+.career_more_btn:hover{
+    color: var(--site-black)!important;
+    border-color: var(--site-black)!important;
+    background-color:var(--site-blue-100)!important;
+}
+.ApplyNow-btn{
+    color: var(--site-blue-100)!important;
+    border-color: var(--site-blue-100)!important;
+    background-color: var(--site-black)!important;
+}
+.ApplyNow-btn:hover{
+    color: var(--site-black)!important;
+    border-color: var(--site-blue-100)!important;
+    background-color:var(--site-blue-100)!important;
+}
+.SubmitNow-btn{
+    color: var(--site-blue-100)!important;
+    border-color: var(--site-blue-100)!important;
+    background-color: var(--site-black)!important;
+}
+.FormSubmit-btn{
+    color: var(--site-blue-100)!important;
+    border-color: var(--site-blue-100)!important;
+    background-color: var(--site-black)!important;
+}

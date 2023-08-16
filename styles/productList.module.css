@@ -1,0 +1,33 @@
+.c_gap {
+  gap: 8px;
+}
+.lh {
+  line-height: 1;
+}
+
+@media screen and (max-width: 576px) {
+  .image {
+    width: 40px;
+    height: 40px;
+  }
+  .select {
+    width: 60px;
+  }
+  .half_button {
+    padding: 10px 4px !important;
+  }
+  .c_gap {
+    gap: 2px;
+  }
+  .addToCart {
+    padding: 2px 8px !important;
+  }
+}
+@media screen and (max-width: 464px) {
+  .select {
+    width: 50px;
+  }
+  .half_button {
+    font-size: 8px !important;
+  }
+}

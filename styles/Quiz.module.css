@@ -1,0 +1,11 @@
+.question_box{
+    margin-top: 10rem;
+}
+
+@media screen and (max-width: 767px) {
+    .question_box{
+        margin-top: 9rem;
+    }
+   
+    
+}

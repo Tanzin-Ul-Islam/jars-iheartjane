@@ -1,0 +1,13 @@
+.header_section{
+    margin-top: 9rem;
+}
+.expiredText{
+    margin-top: 20rem;
+}
+@media screen and (max-width: 767px) {
+    .header_section{
+        margin-top: 12rem;
+    }
+   
+    
+}

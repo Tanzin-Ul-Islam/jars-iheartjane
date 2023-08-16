@@ -1,0 +1,35 @@
+.modalLg{
+    max-width: 800px!important;
+    width: auto!important;
+}
+.dateList{
+    background-color: #D7DCEA;
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.dateList.activeDateList{
+    background-color: var(--site-black);
+    color: var(--site-white);
+}
+.ModalImg{
+    position: absolute;
+    top: -74px;
+}
+@media (max-width: 575px) {
+    .dateList{
+        width: 35px;
+        height: 35px;
+        font-size: 12px;
+    }
+    .ModalImg{
+        position: initial;
+        top: -74px;
+        width: 100%;
+        height: 100%;
+    }
+}

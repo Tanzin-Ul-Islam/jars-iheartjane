@@ -1,0 +1,331 @@
+.shopBox{
+    position: absolute;
+    top: 119px;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: #F1FAFE;
+    padding: 20px;
+    z-index: 9999999999999 !important;
+    /* box-shadow: -5px 11px 15px -3px rgba(0,0,0,0.1); */
+}
+.customShopClick{
+    margin-bottom: 2px;
+}
+.cartCount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20px;
+    min-height: 20px;
+    background: #212322;
+    border: 2px solid #F3F9FE;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    border-radius: 50%;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 2px;
+    font-size: 12px;
+}
+.searchBtn{
+    position: absolute;
+    right: 0;
+    top: 43%;
+    transform: translateY(-50%);
+}
+
+.productType{
+    position: absolute;
+    left: 0;
+    top: 43%;
+    transform: translateY(-50%);
+}
+
+.productType button {
+    border: none !important;
+    background-color: transparent;
+    transform: translateX(-10px);
+}
+
+.productTypeMobile button {
+    border: none !important;
+    background-color: transparent;
+    transform: translateX(-10px);
+}
+
+.modalTopGap{
+    top: 100px!important;
+}
+.custom_header{
+    height:65px;
+}
+.custom_body{
+    position: relative;
+    width: 100%;
+    height:calc(100% - 220px);
+    overflow-y: auto;
+
+}
+.custom_footer{
+    height: 220px;
+    
+}
+.custom_hover_dropdown_menu{
+    padding: 2rem 2.5rem;
+    top: 129px;
+    left: 50%;
+    transform: scale(0) translateX(-50%);
+    position: fixed;
+    width:90vw;
+    min-height: 200px;
+    background: #F1FAFE;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    transition: all 0.5s ease;
+    transform-origin:left top;
+    margin: 0 auto;
+    display: block;
+}
+.custom_nav_item:hover .custom_hover_dropdown_menu{
+    display: block;
+    transform: scale(1) translateX(-50%);
+    z-index: 11111;
+}
+
+.custom_hover_dropdown_menu_pickup{
+    top: 130px;
+    left: 30%;
+    transform: scale(0) translateX(-50%);
+    position: fixed;
+    background: #F1FAFE;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    transition: all 0.5s ease;
+    transform-origin:left top;
+    margin: 0 auto;
+    display: block;
+}
+.custom_nav_item:hover .custom_hover_dropdown_menu_pickup{
+    display: block;
+    transform: scale(1) translateX(-50%);
+    z-index: 11111;
+}
+.prod_small_img{
+    width: 60px;
+    height:60px;
+    object-fit: contain;
+}
+.dropdown_icon_images{
+    width:100%;
+    height:132px;
+}
+.search_card_suggestion_mobile{
+    position: absolute;
+    top:50px;
+    left:32.5%;
+}
+.cartCanvasWidth{
+    width: 500px !important;
+}
+.shopAllButton{
+ background-color: #212322;
+ border: 1px solid #212322;
+ color: white;
+}
+.shopAllButton:hover{
+    background-color: transparent;
+    color: #212322;
+    border: 1px solid #212322;
+}
+.customClickDrop{
+    position: absolute !important;
+    top:6px !important;
+    left:-60px !important;
+    width:91vw;
+    height: 340px;
+    border-radius: 0;
+    background-color: rgba(241,250,254,100%);
+}
+.custom_daily_box{
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+.custom_daily_box:hover{
+    border: 1px solid #212322;
+}
+.hover_underline_animation {
+    display: inline-block;
+    position: relative;
+    color: #212529;
+  }
+  
+.hover_underline_animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #212529;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.hover_underline_animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}
+
+.customSearchBox {
+    position: relative;
+    padding: 1px;
+    width: 265px;
+    margin-top: 7px !important;
+}
+
+.customInputForm {
+    border: none !important;
+    outline: none !important;
+    padding: -6.625rem -7.25rem !important;
+    padding-right: 0px !important;
+}
+
+.customInputForm::placeholder {
+    color: #212322;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 1;
+    /* Firefox */
+}
+
+.customInputForm:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #212322;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.customInputForm::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #212322;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.search_card_suggestion_mobile {
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    z-index: 999;
+}
+
+
+
+
+@media (min-width:1200px) {
+    .customClickDrop{
+        position: absolute !important;
+        top:4px !important;
+        left:-62px !important;
+        width:91vw;
+        height: 340px;
+        border-radius: 0;
+        background-color: rgba(241,250,254,100%);
+    }
+}
+
+@media (max-width:1199px){
+    .customClickDrop{
+        height: 390px;
+    }
+}
+@media (max-width: 992px) {
+    .modalTopGap{
+        top: 100px!important;
+    }
+    .dropdown_icon_images{
+        object-fit: contain ;
+    }
+    .search_card_suggestion_mobile{
+        left:12.4%;
+    }
+}
+@media (max-width: 768px) {
+    .modalTopGap{
+        top: 60px!important;
+    }
+    .custom_hover_dropdown_menu{
+        top: 60px;
+        height:calc(100% - 200px);
+        overflow-y: auto;  
+    }
+    .dropdown_icon_images{
+        width:100%;
+        height:50px;
+        object-fit: contain ;
+    }
+    .search_card_suggestion_mobile{
+        margin-top: 16px;
+        left:0.4%;
+    }
+    .shopBox{
+        top: 0px;
+        height:100vh;
+        overflow-y: auto;
+    }
+    .customScroll{
+        height:65vh;
+        overflow: scroll;
+    }
+
+    .customSearchBox {
+        width: 100%;
+        margin: auto;
+    }
+    
+}
+
+ 
+@media (max-width: 575px) {
+    .modalTopGap{
+        top: 79px!important;
+    }
+
+    .divForMobileSearch {
+        position: relative;
+    }
+
+    .customSearchBox:has(.customInputForm:focus) {
+        width: 100%;
+        /* transform: translate(-30px, -4px); */
+        /* transform: translate(0px, -4px); */
+        animation: customAnimation 0.5s ease forwards;
+    }
+
+    .customInputForm {
+        animation: customAnimation 0.5s ease forwards;
+    }
+
+    @keyframes customAnimation {
+        0% {
+            width: 70%;
+        }
+        100% {
+            width: 100%;
+        }
+    }
+
+    .headerCancelSearch {
+        /* position: absolute; */
+        width: 10%;
+        display: none;
+        /* transform: translateX(-20px); */
+        transform: translate(0px, 4px);
+        text-decoration: underline;
+        top: 9px;
+        right: 10px;
+    }
+}
+
+

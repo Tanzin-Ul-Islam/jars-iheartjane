@@ -1,0 +1,18 @@
+.error_page{
+    padding: 2rem 12rem;
+}
+.errorImage{
+    width: 130px;
+}
+
+@media (max-width: 768px) {
+    .error_page{
+        margin-top: 12rem;
+        padding: 2rem 0px;
+        padding-bottom: 4rem;
+
+    } 
+    .errorImage{
+        width:100px;
+    }
+}

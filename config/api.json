@@ -1,0 +1,178 @@
+{
+    "auth": {
+        "login": "auth/customer/login",
+        "registration": "auth/register",
+        "forgotPassword": "auth/forgot-password",
+        "verifyHashToken": "auth/verify-hash-token",
+        "updatePassword": "auth/hash-token/update-password"
+    },
+    "header": {
+        "headerPageCmsURL": "header-cms",
+        "discoverHoverCmsURL": "site/discover-menu-hover",
+        "headerBannerCms": "header-banner-cms"
+    },
+    "footer": {
+        "footerCmsURL": "site/header-footer"
+    },
+    "about": {
+        "aboutPageCmsURL": "site/about"
+    },
+    "contact": {
+        "contactPageCmsURL": "site/contact",
+        "contactMessageURL": "contact-message",
+        "contactReasonURL": "contact-reason/all"
+    },
+    "faq": {
+        "faqCmsURL": "site/faq"
+    },
+    "quiz": {
+        "quizCmsURL": "site/quiz"
+    },
+    "career": {
+        "careerURL": "site/career",
+        "careerJobListURL": "career",
+        "careerListURL": "site/career-list",
+        "careerDetails": "site/career/",
+        "careerApplication": "career-applicant",
+        "careerListURLNew": "career/filter"
+    },
+    "cart": {
+        "cartPageCmsURL": "cart-cms",
+        "highDealsCmsURL": "high-deals-cms"
+    },
+    "landing": {
+        "landingPageCmsURL": "landing-page-cms"
+    },
+    "privacyPolicy": {
+        "privacyPolicyCmsURL": "privacy-policy-cms"
+    },
+    "termsOfService": {
+        "termsOfServiceCmsURL": "terms-of-service-cms"
+    },
+    "cookiesSettings": {
+        "cookiesSettingsCmsURL": "cookies-settings-cms"
+    },
+    "home": {
+        "homeCmsURL": "site/home",
+        "getProductFilter": "product/filter",
+        "sectionEightCmsURL": "home-page-section-eight-cms",
+        "sectionNineCmsURL": "home-page-section-nine-cms",
+        "homePageSectionFourSlider": "home-page-section-four-slider",
+        "homePageSectionFiveCmsURL": "home-page-section-five-cms",
+        "homePageSectionTwoURL": "home-page-section-two",
+        "homePageNewDropsBannerURL": "home-page-new-drops-banner",
+        "homePageSectionEightURL": "home-page-section-eight",
+        "homePageSectionFiveURL": "home-page-section-five"
+    },
+    "discover": {
+        "hoverModalCmsURL": "service-type-cms",
+        "modalCmsURL": "discover-modal-cms"
+    },
+    "retailerAll": {
+        "retailerAllURL": "retailer/all",
+        "retailerURL": "retailer/all",
+        "selectedRetailer": "store-cms",
+        "retailerDetails": "retailer/details",
+        "searchRetailerAllURL": "retailer/all?search=",
+        "searchRetailerFilterAllURL": "retailer/filter-all?type=",
+        "retailerService": "retailer-service",
+        "retailerElasticSearch": "retailer-service/elastic/search"
+    },
+    "product": {
+        "getAllURL": "product/filter",
+        "getAllWithOutFilter": "product/all",
+        "getProductVariants": "product/filter-list",
+        "getSpecialOffers": "specials/all",
+        "getProductDetails": "product/details",
+        "relatedProductCmsURL": "related-product-cms",
+        "howToEnjoyCmsURL": "how-to-enjoy-cms",
+        "discoverCmsURL": "discover-cms",
+        "reserveTimeCmsURL": "reserve-time-cms",
+        "productService": "product-service/",
+        "productServiceElasticSearch": "product-service/elastic/search",
+        "productServiceElasticSearchDetails": "product-service/elastic/search/details",
+        "productDetailsMeta": "product-details-page-meta",
+        "productVariants": "product/custom-filter-list"
+    },
+    "user": {
+        "getUserDetails": "users/",
+        "updateUserProfile": "users/update-user-profile"
+    },
+    "category": {
+        "getCategories": "product/category",
+        "getCategoryService": "product-category",
+        "getStateWiseCategory": "state-wise-product-category/all"
+    },
+    "checkout": {
+        "createCheckout": "checkout/create",
+        "addItemToCheckout": "checkout/add-item",
+        "updateItemOfCheckout": "checkout/update-quantity",
+        "getCartDetails": "checkout/cart-details",
+        "removeItemFromChecout": "checkout/remove-item"
+    },
+    "order": {
+        "getAllOrder": "order-service/get-user-wise",
+        "getAllOrder2": "order/get-by-email",
+        "postOrder": "order-service",
+        "getSingleOrder": "order/get-by-order-number"
+    },
+    "ageVerification": {
+        "ageVerificationCmsURL": "age-verification-cms"
+    },
+    "feedback": {
+        "feedbackCmsURL": "feedback"
+    },
+    "pressRelease": {
+        "requestURL": "site/press-release",
+        "getPressReleaseUrl": "press-release/filter",
+        "getPressDetailsURL": "site/press-release/",
+        "pressReleaseCategoryURL": "press-release-category"
+    },
+    "article": {
+        "getAllURL": "site/article",
+        "getBlogFilterUrl": "blog-post/filter",
+        "getArticleDetailsURL": "site/article-details/",
+        "ArticleCmsURL": "article-details-cms",
+        "ArticleCategoryURL": "article-category"
+    },
+    "review": {
+        "productReviewURL": "product-review"
+    },
+    "featured": {
+        "featuredBrand": "featured-brand"
+    },
+    "google": {
+        "authUserProfile": "https://www.googleapis.com/oauth2/v3/userinfo",
+        "login": "auth/google-login"
+    },
+    "jarsplus": {
+        "jarsSectionOneCmsURL": "section-one",
+        "jarsSectionTwoTopCmsURL": "section-two-top",
+        "jarsSectionTwoBottomCmsURL": "section-two-bottom",
+        "jarsSectionThreeCmsURL": "section-three",
+        "stepsSectionCmsURL": "steps-section-cms",
+        "benefitsSectionCmsURL": "benefits-section-cms",
+        "benefitsModalURL": "benefits-modal",
+        "benefitsLearnMore": "benefits-section-learn-more"
+    },
+    "cms": {
+        "common": "site/common-cms",
+        "instagram": "instagram-section-cms",
+        "instagramImages": "https://v1.nocodeapi.com/neutrixinc/instagram/RouydAJRUhstwhhv",
+        "productDetailsComponentUI": "product-details-component-ui",
+        "RobotTxt": "robot-cms",
+        "SiteMap": "static-site-map-cms",
+        "pageSchema": "page-schema",
+        "userPageBannerCms": "user-page-banner-cms"
+    },
+    "common": {
+        "effects": "product/unique-effects"
+    },
+    "componentUI": {
+        "userPageBannerComponentUI": "user-banner-component-ui"
+    },
+    "googlebot": {
+        "requestUrl": "product-service/google-bot"
+    }
+
+}

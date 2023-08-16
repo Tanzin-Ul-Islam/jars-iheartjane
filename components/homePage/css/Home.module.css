@@ -1,0 +1,417 @@
+.header_section{
+    width: 100vw;
+    height:calc(100vh - 217.5px);
+    display: flex;
+    align-items: center;
+    background: url("../../../public/images/hero.png") no-repeat center center;
+    background-size: cover;
+
+}
+.previous_header, .next_header {
+    font-size: 35px;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: var(--site-black);
+    /* background: var(--site-blue-100); */
+    /* border: 2px solid var(--site-black); */
+    border-radius: 50%;
+    outline: none;
+    z-index: 100;
+  }
+  .next_header {
+    right: 5px;
+  }
+  .previous_header {
+    left: 5px;
+  }
+.bannerSection{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.bannerSection img{
+    width: 100%;
+    height: 100%
+}
+.bannerSection .bannerSection_btn{
+   position: absolute;
+   bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.custom_banner{
+    position: absolute;
+    bottom: 0px;
+}
+.newDropsButton{
+    color:#212322;
+    background-color: white;
+}
+.newDropsButton:hover{
+    /* background-color: #F68A53; */
+    background-color: #212322;
+    color: #F9F9FE;
+}
+.higherSelfButton{
+    color:#212322;
+    background-color: white;
+}
+.higherSelfButton:hover{
+    /* background-color: #A0A767; */
+    background-color: #212322;
+    color: #F9F9FE;
+}
+.sunnyDayzButton{
+color:#212322;
+background-color: white;
+}
+.sunnyDayzButton:hover{
+/* background-color: #C4C4D9; */
+    background-color: #212322;
+    color: #F9F9FE;
+}
+.highDealsButton{
+    color:#212322;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.25)!important;
+}
+.highDealsButton:hover{
+/* background-color: #D9D29A; */
+    background-color: #212322;
+    color: #F9F9FE;
+}
+.jars_section{
+    width: 100%;
+    height: 130px;
+    background: url("../../../public/images/jarsImg.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.shopInventoryCard{
+    position: relative;
+    overflow: hidden;
+}
+.shopInventoryCardHover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #212322 7.81%, rgba(33, 35, 34, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    transition: all 0.4s ease;
+}
+.shopInventoryCard:hover .shopInventoryCardHover{
+    left: 0;
+}
+.image_one{
+    width: 100%;
+    height: 348px;
+    object-fit: cover;
+}
+.image_two{
+    width: 100%;
+    height:170px;
+    object-fit: cover;
+}
+.custom_sale_box{
+    height: 150px;
+}
+.left_big_img{
+    width: 100%;
+    height: 550px;
+    object-fit: contain;
+}
+.right_big_image{
+    width: 100%;
+    height:300px;
+    object-fit: contain;
+}
+.right_second_big_image{
+    width: 100%;
+    height:300px;
+    object-fit: contain;
+}
+.customShopBanner{
+    padding: 38px;
+}
+.customDropsBanner{
+    padding: 38px;
+}
+.customHigherSelf{
+    padding: 30px;
+}
+.customSunnyDaze{
+    padding: 38px;
+}
+.customGap{
+    margin-bottom: 38px;
+}
+.customGapBanner{
+    margin-top: 0px;
+    margin-bottom: 36px;
+}
+.customModalLocation{
+    /* margin-top: 92px; */
+    background-color: rgba(33, 35, 34, .7) !important;
+    min-height: 100vh;
+}
+.customModalLocationState{
+    min-height: 100vh;
+}
+
+.popupSearchBox {
+    width: 47%;
+}
+
+.popupSearchType {
+    /* width: 65%; */
+    width: 100%;
+}
+
+.popupJustBrowsing {
+    width: 30%;
+    margin-left: 5% !important;
+}
+
+.popupSearchButton {
+    width: 10%;
+}
+
+.modalShow {
+    display: block !important;
+}
+.modalHide {
+    display: none !important;
+}
+
+.customLocation{
+    max-height: calc(100vh - 54vh);
+    overflow-y: scroll;
+}
+.closeButton{
+    position: absolute;
+    top:10px;
+    right:12px;
+}
+.sliderTwoCardContext{
+    transition: transform 0.5s;
+}
+.sliderTwoCardContext:hover{
+    transform: scale(1.1);
+}
+.search_card_suggestion{
+    position: absolute;
+    top:40px;
+    left:0px;
+    z-index: 999;
+    height: auto;
+}
+
+.sliderButton {
+    border-color: var(--site-white);
+}
+
+.sliderButton:hover {
+    background-color: var(--site-white);
+    color: var(--site-black) !important;
+}
+
+.sectionThreeCmsImage {
+    width: 155px;
+    Height: 84.86px;
+    transform: translateX(40px);
+}
+
+.sectionThreeCmsButton {
+    margin-left: 50px;
+    text-decoration: underline;
+}
+
+.sectionThreeCmsButton:hover {
+    text-decoration: none;
+}
+
+.higherSelf {
+    margin-top: 150px;
+}
+
+.thirdImage {
+    width: 100%;
+    height: 284px;
+    objectFit: fill;
+}
+
+.firstImage {
+    width: 100%;
+    height: 500px;
+    objectFit: fill;
+}
+
+.category_slider_img{
+    height: 459px !important;
+}
+
+@media screen and (max-width: 987px){
+    .header_section{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        background: url("../../../public/images/hero.png") no-repeat center center;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header_section{
+        height:calc(100vh - 400px);
+        /* margin-top: 42px; */
+    }
+    .header_section{
+        background-position: 70% 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .custom_banner{
+        bottom: 20px;
+        left:5px;
+    }
+    .previous_header, .next_header {
+        font-size: 20px;  
+    }
+    .next_header {
+        right: 2px;
+      }
+      .previous_header {
+        left: 2px;
+      }
+      .image_one{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .image_two{
+        width: 100%;
+        height:170px;
+        object-fit: cover;
+    }
+    .left_big_img{
+        height: 200px !important;
+    }
+    .right_big_image{
+        height:200px !important;
+    }
+    .right_second_big_image{
+        height:200px !important;
+    }
+    .customDropsBanner{
+        padding: 21px;
+    }
+    .customHigherSelf{
+        /* padding: 60px 14px; */
+        padding: 9px 14px;
+    }
+    .customSunnyDaze{
+        padding: 21px;
+    }
+    .customGap{
+        margin-bottom: 20px;
+    }
+    .customGapBanner{
+        margin-top: 34px;
+        margin-bottom: 20px;
+    }
+    /* .customModalLocation{
+        margin-top: 135px;
+    } */
+
+    .popupSearchBox {
+        width: 41%;
+    }
+
+    .popupSearchType {
+        /* width: 65%; */
+        width: 100%;
+    }
+    
+    .popupSearchType button {
+        font-size:12px !important;
+    }
+
+    .popupJustBrowsing{
+        width: 33%;
+        margin-left: 2% !important;
+    }
+    
+    .popupJustBrowsing button{
+        font-size: 12px !important;
+    }
+
+    .popupSearchButton {
+        width: 10%;
+    }
+
+
+    .popupSearchType select option {
+        font-size: 8px !important;
+    }
+    .customShopBanner{
+        padding: 21px;
+    }
+
+    .shopInventoryCard {
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+
+    .shopInventoryCard:hover {
+        margin-left: 0px !important;
+    }
+
+    .sectionThreeCmsImage {
+        width: 100px;
+        Height: 84.86px;
+        transform: translateX(0px);
+    }
+
+    .sectionThreeCmsText {
+        margin-bottom: 1rem;
+    }
+
+    .sectionThreeCmsButton {
+        margin-left: 0px;
+    }
+    
+    .higherSelf {
+        margin-top: 24px;
+        padding-bottom: 12px;
+    }
+
+    .customHigherSelf h2 {
+        margin-bottom: 0px;
+    }
+
+    .thirdImage {
+        width: 100%;
+        height: 210px !important;
+        object-fit: fill;
+    }
+
+    .firstImage {
+        width: 100%;
+        height: 280px !important;
+    }
+
+}

@@ -1,0 +1,9 @@
+.heading{
+   margin-top: 3rem;
+}
+
+@media screen and (max-width: 767px) { 
+   .heading{
+      margin-top: 2rem;
+   }  
+}

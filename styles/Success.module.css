@@ -1,0 +1,12 @@
+.right_section_payement img{
+    width: 100%;
+    object-fit: fill;
+}
+
+
+@media (max-width: 768px) {
+    .right_section_payement img{
+       min-height: 300px ;
+       
+    } 
+}

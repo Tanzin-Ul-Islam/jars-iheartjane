@@ -1,0 +1,82 @@
+.socialIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ribbon {
+    font-size: 16px !important;
+    width: 44px;
+    height: 140px;
+    position: absolute;
+    top: 0;
+    background: var(--site-yellow-200);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 10px 0;
+}
+.ribbon:after {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 22px solid var(--site-yellow-200);
+    border-right: 22px solid var(--site-yellow-200);
+    border-bottom: 14px solid transparent;
+    bottom: -14px;
+    left: 0;
+}
+
+
+.footer_info_expand { 
+   max-height: 46px;
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+    transition: max-height 1s ease-in-out;
+}
+
+.footer_info_expand.expand_info { 
+    max-height: 800px;
+  transition: max-height 1s ease-in-out;
+}
+
+.expand_btn { 
+    display: flex;
+  width: 100%;
+  height: 45px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+
+.footer_info_list { 
+    margin-top: 10px;
+  padding-bottom: 30px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.5;
+  transition: max-height 1s ease-in-out;
+}
+.footer_box_border{
+  border: #fff solid 0.5px;
+}
+
+.learnMoreButton {
+  width: 205px; 
+  height: 46px; 
+  border-color: #D9D29A;
+  color: #D9D29A; 
+}
+
+.learnMoreButton:hover {
+  color: #212322 !important;
+}

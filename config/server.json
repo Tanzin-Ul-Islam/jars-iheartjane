@@ -1,0 +1,28 @@
+{
+    "google": {
+        "logInKey": "648229172140-ngaj7udjd7642p20vacs3e4b69gev5uq.apps.googleusercontent.com",
+        "logInKeyBackupHGS": "162701058043-2v08gn61fdufam5r77ucbtkl73d88j6o.apps.googleusercontent.com"
+    },
+    "server": {
+        "HOST": "https://jars.1space.co/",
+        "SERVER_HOST": "https://1space.co:7003/",
+        "IMAGE_URL": "https://1space.co:7003/"
+    },
+    "server_prod": {
+        "HOST": "https://www.jarscannabis.com/",
+        "SERVER_HOST": "https://api.jars-cannabis.com:7033/",
+        "IMAGE_URL": "https://api.jars-cannabis.com:7033/"
+    },
+    "staging": {
+        "STAGING_HOST": "https://127.0.0.1:8080/",
+        "STAGING_SERVER_HOST": "http://103.228.203.25:7003/",
+        "STAGING_IMAGE_URL": "http://103.228.203.25:7003/",
+        "STAGING_SERVER_HOST_BK": "http://202.133.91.38:7003/",
+        "STAGING_IMAGE_URL_BK_2": "http://202.133.91.38:7003/",
+        "STAGING_SERVER_HOST_B": "http://27.147.162.169:7003/",
+        "STAGING_IMAGE_URL_B": "http://27.147.162.169:7003/",
+        "STAGING_IMAGE_URL_BK": "http://192.168.5.251:7003/"
+    }
+    
+     
+}

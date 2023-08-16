@@ -1,0 +1,77 @@
+.infinitySpin {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99999999999999999999999999999999999999999999999999999999999999999 !important;
+    background-color: rgb(255, 255, 255);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    padding-left: 70px;
+}
+
+.infinitySpin svg {
+    width: 400px;
+}
+
+@media screen and (max-width: 767px) {
+    .infinitySpin {
+        padding-left: 46px !important;
+    }
+
+    .infinitySpin svg {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .infinitySpin {
+        padding-left: 42px !important;
+    }
+
+    .infinitySpin svg {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .infinitySpin {
+        padding-left: 32px !important;
+    }
+
+    .infinitySpin svg {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .infinitySpin {
+        padding-left: 31px !important;
+    }
+
+    .infinitySpin svg {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .infinitySpin {
+        padding-left: 28px !important;
+    }
+
+    .infinitySpin svg {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .infinitySpin {
+        padding-left: 16px !important;
+    }
+
+    .infinitySpin svg {
+        width: 300px;
+    }
+}

@@ -1,0 +1,93 @@
+.banner_bg {
+    height: calc(100vh - 217.5px);
+    background: linear-gradient(hsl(0, 2%, 20%, 0.2), 80%, black),
+        url("../public/images/hero_bg.webp");
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center center;
+}
+
+.main_text_banner {
+    font-size: 5rem;
+    color: white;
+}
+
+/* .custom_button_hover:hover {
+    background-color: #C4C4D9;
+}
+.custom_button_selected {
+    background-color: #C4C4D9;
+} */
+
+.custom_button_hover{
+    color:#212322;
+    background-color: white;
+}
+.custom_button_hover:hover{
+    /* background-color: #F68A53; */
+    background-color: #212322;
+    color: #F9F9FE;
+}
+
+/* .custom_button_hover:hover{
+    background-color: #C4C4D9;
+} */
+.custom_button_selected{
+    /* background-color: #C4C4D9; */
+    background-color: #212322;
+    color: #F9F9FE;
+}
+
+.banner_sub {
+    font-size: 22px;
+}
+
+.card_sub_description {
+    max-height: 80px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.bannerImage {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card_thumb_img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+@media screen and (max-width: 767px) {
+    .banner_bg {
+        height: 200px;
+        /* margin-top: 10rem; */
+    }
+
+    .main_text_banner {
+        font-size: 3rem;
+    }
+
+    .banner_sub {
+        font-size: 16px;
+    }
+
+    .card_thumb_img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .bannerImage {
+        height: 300px;
+    }
+}

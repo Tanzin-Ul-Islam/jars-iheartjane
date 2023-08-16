@@ -1,0 +1,70 @@
+.customSlideCard{
+    height:467px;
+   
+}
+.cardCustomSlideCardt{
+    z-index: 999999 !important;
+    height:467px;
+    transition: transform 0.5s;
+}
+.cardCustomSlideCard{
+    z-index: 999999 !important;
+    height:467px;
+    transition: transform 0.5s;
+}
+.cardCustomSlideCard:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.prevButton {
+    position: absolute;
+}
+
+.nextButton {
+    position: absolute;
+}
+.slider_text_box{
+    height: 130px;
+}
+
+.section_two_desc{
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+}
+.addToCartButton{
+    border:none;
+    padding: 0px;
+}
+.addToCartButton:hover{
+    border: 1px solid #212321;
+    padding: 0px 5px 0px 5px;
+}
+
+@media screen and (max-width: 825px){
+    .slider_text_box{
+        height: 150px;
+    } 
+}
+@media screen and (max-width: 768px){
+    .slider_text_box{
+        height: 110px;
+    } 
+    .customSlideCard{
+        height:100%;
+    }
+    .cardCustomSlideCardt{
+        z-index: 999999 !important;
+        height:467px;
+        transition: transform 0.5s;
+        width: 100%;
+        margin-left: 0px !important;
+    }
+
+    .newHighFiveSliderCard{
+        height: 100% !important;
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+}

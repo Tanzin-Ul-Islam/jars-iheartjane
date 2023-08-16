@@ -1,0 +1,56 @@
+.enterButton{
+  margin-top: 4rem;
+  border-radius: 20px;
+  padding: 7px 35px;
+  border: none;
+  /* background-color:var(--site-yellow-200); */
+  /* color: #212322; */
+  font-size: 14px;
+  font-weight: 600;
+}
+.text_field{
+    width:320px;
+}
+.modal_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: #212322; */
+    /* background: linear-gradient(hsla(266, 46%, 72%, 0.2),80%,black),
+                url("../public/images/hero_bg.webp"); */
+    background-size: cover;
+    object-fit: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    width: 100%;
+    min-height: 100vh;
+  }
+.custom_radio {
+  background-color: transparent;
+  border: 1px solid white;
+  margin-top: 6px;
+}
+.custom_radio:checked {
+  background-color: var(--site-yellow-200);
+  border: 1px solid var(--site-yellow-200);
+  margin-top: 6px;
+  box-shadow: none;
+}
+  @media screen and (max-width: 768px) {
+    .text_field{
+        width:290px;
+    }
+    .modal_container{
+        background-size: contain no-repeat;
+    }  
+    .enterButton{
+      margin-top: 6rem;
+    }
+   
+    
+  }

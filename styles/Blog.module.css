@@ -1,0 +1,106 @@
+.banner_bg{
+    height:calc(100vh - 217.5px);
+    background: linear-gradient(hsl(0, 2%, 20%,0.2),80%,black),
+    url("../public/images/hero_bg.webp");
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center center;
+}
+
+.custom_button_hover{
+    color:#212322;
+    background-color: white;
+}
+.custom_button_hover:hover{
+    /* background-color: #F68A53; */
+    background-color: #212322;
+    color: #F9F9FE;
+}
+
+/* .custom_button_hover:hover{
+    background-color: #C4C4D9;
+} */
+.custom_button_selected{
+    /* background-color: #C4C4D9; */
+    background-color: #212322;
+    color: #F9F9FE;
+}
+
+.bannerBackground{
+    margin-top: -5px;
+    position: relative;
+    height: 92vh;
+    background-repeat: no-repeat;
+    /* background: url("../public/images/hero.png"); */
+    background-size: cover;
+    object-fit: cover;
+    background-position: center center;
+}
+.headerTextBox{
+    position: absolute;
+    top:28%;
+    left:10%;
+}
+.headerTextBox h1{
+    font-size: 72px;
+    line-height: 60px;
+}
+.subheadSection{
+    margin-top: 7rem;
+}
+.main_text_banner{
+    font-size: 5rem;
+    color: white;
+}
+.banner_sub{
+    font-size: 22px;
+}
+
+.card_sub_description{
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical ;
+    overflow: hidden;
+}
+.card_thumb_img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.customBlogBanner{
+    padding: 38px;
+}
+
+@media screen and (max-width: 767px) {
+    .banner_bg{
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        background-position: 70% 100%;
+        /* margin-top: 173px; */
+    }
+    .bannerBackground{
+        margin-top: 176px;
+        background-position: center center;
+        height: 50vh;
+        background-position: 70% 100%;
+    } 
+    .headerTextBox{
+        top:35%;
+        left:10%;
+    }
+    .headerTextBox h1{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .customBlogBanner{
+        padding: 21px;
+    }
+    .subheadSection{
+        margin-top: 3rem;
+    }
+    
+}

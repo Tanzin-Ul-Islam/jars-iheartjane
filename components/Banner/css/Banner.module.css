@@ -1,0 +1,123 @@
+.jars_section_edited{
+    
+    background: url("../../../public/images/69.png") no-repeat left center;
+    background-size: 100% 100%;
+}
+
+
+/* (320x480) iPhone (Original, 3G, 3GS) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+     .commonBannerButton{
+        transform: translate(0,0);
+    }
+}
+ 
+/* (320x480) Smartphone, Portrait */
+@media only screen and (device-width: 320px) and (orientation: portrait) {
+     .commonBannerButton{
+        transform: translate(0,0);
+    }
+}
+ 
+/* (320x480) Smartphone, Landscape */
+@media only screen and (device-width: 480px) and (orientation: landscape) {
+    .commonBannerButton{
+        transform: translate(0,0);
+    }
+}
+ 
+/* (480x800) Android */
+@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+    .commonBannerButton{
+        transform: translate(0,0);
+    }
+}
+ 
+/* (640x960) iPhone 4 & 4S */
+@media only screen and (min-device-width: 640px) and (max-device-width: 960px) {
+    .commonBannerButton{
+        transform: translate(0,0);
+    }
+}
+ 
+/* (720x1280) Galaxy Nexus, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    .commonBannerButton{
+        transform: translate(0,0);
+    }
+}
+ 
+/* (720x1280) Galaxy Nexus, Landscape */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: landscape) {
+    .commonBannerButton{
+        transform: translate(0,0);
+    }
+}
+ 
+/* (1280x720) Galaxy Note 2, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    .commonBannerButton{
+        transform: translate(0,0);
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .jars_section_edited{
+        margin-top: 11rem;
+        background:none;
+        background-size: 100% 100%;
+    }
+    .commonBannerButton{
+        transform: translate(0,0);
+    }
+}
+
+/* (1280x1024) SXGA Display */
+@media  screen and (max-width: 900px) {
+    .commonBannerButton{
+        transform: translate(0px,0);
+    }
+}
+ 
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {
+    .commonBannerButton{
+        transform: translate(-44px,0);
+    }
+}
+ 
+/* (1280x1024) SXGA Display */
+@media  screen and (max-width: 1280px) {
+    .commonBannerButton{
+        transform: translate(-44px,0);
+    }
+}
+ 
+/* (1440x900) WXGA+ Display */
+@media  screen and (max-width: 1440px) {
+    .commonBannerButton{
+        transform: translate(-44px,0);
+    }
+}
+ 
+/* (1680x1050) WSXGA+ Display */
+@media  screen and (max-width: 1680px) {
+    .commonBannerButton{
+        transform: translate(-80px,0);
+    }
+}
+ 
+/* (1920x1080) Full HD Display */
+@media  screen and (max-width: 1920px) {
+    .commonBannerButton{
+        transform: translate(-80px,0);
+    }
+}
+ 
+/* (1600x900) HD+ Display */
+@media  screen and (max-width: 1600px) {
+    .commonBannerButton{
+        transform: translate(0px,0);
+    }
+}

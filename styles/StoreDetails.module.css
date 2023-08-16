@@ -1,0 +1,28 @@
+.hours {
+    list-style: none;
+    color: gray;
+    width: 80%;
+}
+
+.hours li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.PaymentMethods li {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.PaymentMethodsType {
+    color: #333;
+    font-size: 14px;
+}
+
+.PaymentMethods .PaymentMethodsData {
+    font-size: 13px;
+    color: gray;
+    margin-left: 10px;
+}
